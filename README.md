@@ -1,4 +1,4 @@
-# COYO Plugins - Example: Johnskitchen
+# COYO Plugins - Example: John's Kitchen
 
 **Installation**
 
