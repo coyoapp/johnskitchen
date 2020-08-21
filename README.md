@@ -9,3 +9,5 @@ To install it, you can use npm:
 ```
 npm install jwt-decode
 ```
+
+[Click here to read the full documentation](https://knowledgebase.coyoapp.com/hc/de/articles/360016046219)
