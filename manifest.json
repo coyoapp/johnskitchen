@@ -1,7 +1,7 @@
 {
-  "manifestVersion": "0.7.0",
-  "pluginVersion" : "1.0.0",
-  "coyoVersion" : "27.0.0",
+  "manifestVersion": "1.2.0",
+  "pluginVersion" : "2.0.0",
+  "coyoVersion" : "29.1.1",
   "name": {
     "de": "John Doe‘s Küche",
     "en": "John Doe’s Kitchen"
@@ -11,20 +11,25 @@
     "en": "For embedding a list of our kitchen menu"
   },
   "data" : [
-    "userName"
+    "tenantId",
+    "tenantUrl",
+    "userId",
+    "userName",
+    "userEmail",
+    "userLanguage"
   ],
   "entryPoints" : [
     {
       "id": "43d4d920-5511-4001-aba5-10c4dfc89c75",
       "name": {
-        "de": "Tagesmenü",
-        "en": "daily menu"
+        "de": "coyo-info",
+        "en": "coyo-info"
       },
       "description": {
-        "de": "Anzeige der Tagesgerichte",
-        "en": "Display the daily menu"
+        "de": "Zeit die COYO Informationen an",
+        "en": "Display the information of your COYO"
       },
-      "url" : "./daily/"
+      "url" : "./coyo-info/"
     },
     {
       "id": "88a11a22-c3ef-43ea-b376-459c3c20ea12",
