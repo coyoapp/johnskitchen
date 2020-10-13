@@ -16,7 +16,7 @@ parent.postMessage(
     ]
 }, "*"
 )
-window.addEventListener('message', function receiveData(event) {
+window.addEventListener('message', function recieveData(event) {
     var jwt = jwt_decode(event.data);
     document.getElementById("tenantId").textContent = jwt["data.tenantId"];
     document.getElementById("tenantUrl").textContent = jwt["data.tenantUrl"];
